@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(Background\ Pattern.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 200px;
+  background-color: #f8fafc;
+  position: relative;
+}
+#hero {
+  width: 444px;
+  height: 600px;
+  /* justify-content: center;
+    position: relative;
+    align-items: center; */
+  margin-top: 100px;
+  margin-left: 480px;
+  border-radius: 4px;
+  /* background-color: rgb(239, 232, 232); */
+  box-shadow: 12px 9px 18px 19px rgba(1, 0, 0, 0.096);
+}
+.size {
+  height: 40px;
+  width: 350px;
+  border-radius: 5px;
+
+  border: 2px solid #dedede;
+}
+#submit-btn {
+  background-color: blue;
+  color: white;
+  width: 350px;
+  height: 40px;
+  border: none;
+}
+.red {
+  color: var(--danger);
+}
+.green {
+  color: var(--success);
+}
+
+@media only screen and (min-width: 460px) {
+  .hero1 {
+    justify-content: center !important;
+    position: relative !important;
+    align-items: center !important;
+    display: grid;
+    margin-right: 300px !important;
+  }
+}
